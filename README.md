@@ -39,13 +39,21 @@ The model is trained using the Adam optimizer and binary cross-entropy loss func
 - Early stopping is applied with a patience of 3 epochs based on validation accuracy.
 
 ### Evaluation Metrics
-- **Precision**: Ensuring at least 95% precision.
-- **Recall**: Maximizing the recall score.
+- **Precision**: 
+- **Recall**: 
 
 ## Results
-The model achieves the following performance on the test set:
+The LSTM model achieved:
+- **Accuracy**: 93%
+- **Recall**: 88%
+
+The LightGDM model achieved:
 - **Precision**: 95%
-- **Recall**: Maximized by the model's architecture and training process.
+- **Recall**: 75%
+
+The linear model achieved:
+- **Precision**: 96%
+- **Recall**: 36%
 
 ## Contributing
 We welcome contributions to improve the model and the project. Please fork the repository and submit pull requests.
